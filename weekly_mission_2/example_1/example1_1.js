@@ -17,3 +17,25 @@ const alumno ={
 
 console.log(alumno)
 console.log(alumno.name)
+
+
+class Ajolonauta {
+    constructor(name, mision, age, color){
+        this.name = name,
+        this.mision = mision,
+        this.age = age,
+        this.color = color
+    }
+    sayHello(){
+        return "Hola Enfermera"
+    }
+}
+
+const woopa = new Ajolonauta("Erick", "Lunar", 28, "Blue")
+console.log(woopa.name)
+
+woopa.name ="Manuelito"
+
+console.log(woopa.name)
+
+console.log(woopa.sayHello())
