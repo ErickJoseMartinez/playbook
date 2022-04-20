@@ -27,7 +27,7 @@ class Ajolonauta {
         this.color = color
     }
     sayHello(){
-        return "Hola Enfermera"
+        return `${this.name} te dice hola enfermera`
     }
 }
 
